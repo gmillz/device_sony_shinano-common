@@ -1,2 +1,9 @@
-# GPU device
-/dev/kgsl-3d0       u:object_r:gpu_device:s0
+# NFC
+/dev/pn547       u:object_r:nfc_device:s0
+
+# Audio
+/dev/tfa98xx     u:object_r:audio_device:s0
+
+# Hardware tunables
+/sys/devices/mdss_dsi_panel/cabc                       -- u:object_r:sysfs_display:s0
+/sys/devices/virtual/timed_output/vibrator/vtg_level   -- u:object_r:sysfs_vibrator:s0
